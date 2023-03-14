@@ -1,0 +1,78 @@
+.container{
+    padding: 5px;
+}
+
+/* header  */
+.header__box{
+    display: flex;
+    padding: 5px;
+}
+header h1{
+    text-align: center;
+}
+header p{
+    text-align: center;
+}
+.header__detail{
+    width: 49%;
+    padding: 20px;
+}
+.header__inputs{
+    width: 49%;
+    padding: 20px;
+}
+#header__name{
+    width: 46%;
+    padding: 10px 5px;
+}
+#header__email{
+    width: 46%;
+    padding: 10px 6px;
+}
+#header__message{
+    padding: 10px 5px;
+    width: 95%;
+    margin-top: 5px;
+}
+.header__btn{
+    margin: 10px 20px;
+    padding: 10px 20px;
+    float: right;
+    background-color: black;
+    color: white;
+}
+.a1{
+    display: flex;
+}
+.a1 img{ 
+    padding-top: 20px;
+    width: 20px;
+    height: 20px;
+}
+
+/* Section  */
+section{
+    padding: 5px;
+}
+table{
+    width: 100%;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    border-color: #dddddd;
+  }
+th,td{
+    padding: 10px 20px;
+}
+th{
+    background-color: black;
+    color: white;
+    text-align: left;
+}
+tr:nth-child(odd){
+    background-color: #f2f2f2;
+}
+tr:hover{
+    background-color: #ddd;
+}
